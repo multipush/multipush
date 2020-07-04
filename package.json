@@ -1,0 +1,30 @@
+{
+  "name": "multipush",
+  "version": "0.1.1",
+  "description": "Multipush - keep projects in sync",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc --outDir dist --watch src/index.ts",
+    "build": "tsc --outDir dist src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multipush/multipush.git"
+  },
+  "keywords": [],
+  "author": "Jakub Mikulas",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/multipush/multipush/issues"
+  },
+  "homepage": "https://github.com/multipush/multipush#readme",
+  "dependencies": {
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "jest": "^26.2.2",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.6"
+  }
+}
